@@ -8,10 +8,9 @@ const repositories = [
     branch: "main",
     notesUrl: "https://example.com/notes/introduction-to-react.pdf",
   },
-  
 ];
 
-const RepoList = ({setIsRepoShow}) => {
+const RepoList = ({ setIsRepoShow }) => {
   const handleDownloadZip = (user, repo, branch) => {
     const url = `https://github.com/${user}/${repo}/archive/refs/heads/${branch}.zip`;
     triggerDownload(url, `${repo}-${branch}.zip`);
@@ -72,7 +71,9 @@ const RepoList = ({setIsRepoShow}) => {
         ))}
       </ul>
       <div className="center">
-      <button className="home-cta" onClick={()=>setIsRepoShow(false)}>Go to Curriculum</button>
+        <button className="home-cta" onClick={() => setIsRepoShow(false)}>
+          Go to Curriculum
+        </button>
       </div>
     </section>
   );
