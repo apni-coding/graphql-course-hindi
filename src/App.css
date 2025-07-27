@@ -1,0 +1,171 @@
+.roadmap-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.roadmap-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #6a1b9a;
+  margin-bottom: 1.5rem;
+}
+
+.roadmap-section {
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.roadmap-toggle {
+  width: 100%;
+  background-color: #f3e5f5;
+  color: #4a148c;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+.roadmap-toggle:hover {
+  background-color: #e1bee7;
+}
+
+.arrow {
+  font-size: 1.2rem;
+}
+
+.roadmap-content {
+  padding: 1rem 1.5rem;
+  background-color: #fafafa;
+}
+
+.roadmap-item {
+  margin-bottom: 1rem;
+  border-left: 4px solid #ab47bc;
+  padding-left: 1rem;
+}
+
+.roadmap-item-title {
+  color: #6a1b9a;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.roadmap-item-description {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+.repo‑wrapper {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.repo‑title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.repo‑list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.repo‑item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+  transition: box-shadow 0.3s ease;
+}
+
+.repo‑item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.repo‑info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.repo‑name {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.repo‑link {
+  font-size: 0.95rem;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 0.5rem;
+}
+
+.repo‑link:hover {
+  text-decoration: underline;
+}
+
+.repo‑actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.download‑btn {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.download‑btn:hover {
+  background-color: #4a148c;
+}
+
+.center {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.home-cta {
+  background-color: #ab47bc;
+  color: white;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
